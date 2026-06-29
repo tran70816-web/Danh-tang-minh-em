@@ -138,9 +138,9 @@
             ctx.fillStyle = 'rgba(0, 0, 0, 0.16)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            const ratio = 10 * curve((frame / 23) * Math.PI);
-            const haloRadius = Math.floor(4 + 6 * (1 + curve((frame / 23) * Math.PI)));
-            const haloNumber = Math.floor(2000 + 3000 * Math.pow(Math.abs(curve((frame / 23) * Math.PI)), 2));
+            const ratio = 10 * curve((frame / 25) * Math.PI);
+            const haloRadius = Math.floor(4 + 6 * (1 + curve((frame / 25) * Math.PI)));
+            const haloNumber = Math.floor(2000 + 3000 * Math.pow(Math.abs(curve((frame / 25) * Math.PI)), 2));
 
             ctx.fillStyle = HEART_COLOR;
 
